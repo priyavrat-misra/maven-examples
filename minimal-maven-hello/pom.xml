@@ -1,8 +1,30 @@
 <project>
+  <!-- required fields -->
   <modelVersion>4.0.0</modelVersion>
  
   <groupId>io.github.priyavrat_misra</groupId>
   <artifactId>minimal-maven-hello</artifactId>
   <version>1</version>
+
+  <!-- optional fields, useful for the site -->
+  <name>Minimal Maven Example</name>
+  <description>A "Hello World" project with minimal POM.</description>
+  <url>https://github.com/priyavrat-misra/maven-examples/tree/master/minimal-maven-hello</url>
+
+  <licenses>
+      <license>
+          <name>MIT</name>
+          <comments>With that, do as you please.</comments>
+      </license>
+  </licenses>
+
+  <developers>
+      <developer>
+          <name>Priyavrat Misra</name>
+          <url>https://priyavr.at</url>
+          <email>priyavratmisra123@gmail.com</email>
+      </developer>
+  </developers>
+
 </project>
 
